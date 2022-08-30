@@ -1,0 +1,1 @@
+/usr/bin/gcc -D_GNU_SOURCE -Wall -std=c99 -g   CMakeFiles/array_list_create_test.dir/tests/array_list_create_test.c.o CMakeFiles/array_list_create_test.dir/src/array_list/array_list.c.o  -o bin/test_lib/array_list_create_test  -Wl,-rpath,/media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/build/lib lib/libdata_structure.so 

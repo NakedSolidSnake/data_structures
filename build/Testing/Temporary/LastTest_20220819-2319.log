@@ -1,0 +1,33 @@
+Start testing: Aug 19 20:24 -03
+----------------------------------------------------------
+1/2 Testing: array_list_create
+1/2 Test: array_list_create
+Command: "/media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/build/bin/test_lib/array_list_create_test"
+Directory: /media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/build
+"array_list_create" start time: Aug 19 20:24 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"array_list_create" end time: Aug 19 20:24 -03
+"array_list_create" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: array_list_create_struct
+2/2 Test: array_list_create_struct
+Command: "/media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/build/bin/test_lib/array_list_create_struct_test"
+Directory: /media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/build
+"array_list_create_struct" start time: Aug 19 20:24 -03
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"array_list_create_struct" end time: Aug 19 20:24 -03
+"array_list_create_struct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 19 20:24 -03

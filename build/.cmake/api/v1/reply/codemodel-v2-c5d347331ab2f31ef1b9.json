@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "data_structures",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "array_list_create_struct_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-array_list_create_struct_test-Debug-3308ae4e256470691700.json",
+					"name" : "array_list_create_struct_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "array_list_create_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-array_list_create_test-Debug-2ea12b74e2c89d6c4dba.json",
+					"name" : "array_list_create_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "data_structure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-data_structure-Debug-a92d4f3423aca4e9d78b.json",
+					"name" : "data_structure",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/build",
+		"source" : "/media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

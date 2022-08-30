@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/array_list/array_list.h
+stdbool.h
+-
+stdint.h
+-
+
+/media/cssouza/SOLIDCRIS/Canal_Faz_em_C/Projetos/criando_libs/sources/official/data_structures/tests/array_list_create_struct_test.c
+array_list.h
+-
+assert.h
+-
+stdlib.h
+-
+
