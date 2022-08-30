@@ -29,19 +29,31 @@ endfunction()
 
 enable_testing()
 
-add_library(data_structure SHARED "")
-target_sources(data_structure 
-  PUBLIC 
-  ${CMAKE_CURRENT_LIST_DIR}/src/array_list/array_list.c
+set (sources ${CMAKE_CURRENT_LIST_DIR}/src/array_list/array_list.c)
+set (includes ${CMAKE_CURRENT_LIST_DIR}/include/array_list)
 
-  )
-target_include_directories(data_structure 
+add_library(structures SHARED "")
+target_sources(structures 
   PUBLIC 
-  ${CMAKE_CURRENT_LIST_DIR}/include/array_list
+  "${sources}"
+  )
+target_include_directories(structures
+  PUBLIC 
+  "${includes}"
+  )
+
+add_library(structures_static STATIC "")
+target_sources(structures_static 
+  PUBLIC 
+  "${sources}"
+  )
+target_include_directories(structures_static
+  PUBLIC 
+  "${includes}"
   )
 
 add_test_unit(array_list_create array_list_create_test tests/array_list_create_test.c)
-target_link_libraries(array_list_create_test PUBLIC data_structure)
+target_link_libraries(array_list_create_test PUBLIC structures)
 
 add_test_unit(array_list_create_struct array_list_create_struct_test tests/array_list_create_struct_test.c)
-target_link_libraries(array_list_create_struct_test PUBLIC data_structure)
+target_link_libraries(array_list_create_struct_test PUBLIC structures)
