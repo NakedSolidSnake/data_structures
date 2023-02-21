@@ -53,6 +53,20 @@ bool array_list_insert (array_list_t *array, void *object)
     return status;
 }
 
+bool array_list_update (array_list_t *array, void *object, uint32_t index)
+{
+    bool status = false;
+
+    if (array != NULL && index < array->amount)
+    {
+        memcpy (&array->buffer[index * array->object_size], object, array->object_size);
+
+        status = true;
+    }
+
+    return status;
+}
+
 bool array_list_remove (array_list_t *array, uint32_t index)
 {
     bool status = false;
